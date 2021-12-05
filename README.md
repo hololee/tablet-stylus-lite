@@ -96,7 +96,7 @@ You can use it to more good quality.
 *********************************************************************
 ~~~   
 
-![title](./resource/img1.png)
+![title](./resource/img1.jpeg)
 ![title](./resource/img2.png)
 ![title](./resource/img3.png)
-![designer sample test](./resource/img4.png)
+![designer sample test](./resource/img4.jpeg)
