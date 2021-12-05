@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tablet Lite</string>
+    <string name="first_first">This application uses the USB tethering.\nFor details, please use the manual below.</string>
+    <string name="first_2">● To use this application, the smartphone driver must be installed on your PC.</string>
+    <string name="first_3"> ● The state smartphone is not connected to a PC, USB tethering is not activated.</string>
+    <string name="first_4"> ● You need to install the PC-side program to connect your smartphone to a PC. Please download the program from the following site.</string>
+    <string name="address_down">hanulc.wix.com/tablet</string>
+    <string name="second_1">After finishing the setting, please press the start button. The description must click below.</string>
+    <string name="how_to_set"> How to Set Up</string>
+    <string name="title_activity_preparation">preparationActivity</string>
+    <string name="title_activity_pad_left">padLeftActivity</string>
+    <string name="title_activity_pad_right">padRightActivity</string>
+    <string name="title_activity_setting">settingActivity</string>
+    <string name="title_activity_how">howActivity</string>
+    <string name="toast1">Please enter the IP shown on your PC screen.</string>
+    <string name="how_1"> 1. Connect your smartphone to a PC with USB, and turn on USB tethering on the smartphone.</string>
+    <string name="how_2">2. Connect the network from pc to usb tethering.</string>
+    <string name="how_2_sub">Control Panel - Network and Internet - settings in the Network and Sharing Center (may vary depending on the Windows version, please disable the firewall during connection failures)</string>
+    <string name="how_3">3. After running the PC -side program, lets you enter the IP address of the PC screen in the field of smart phones.</string>
+    <string name="how_3_sub"> IP must be confirmed before the internet connection of a PC is connected to tethering your smartphone. (When not being connected to the tethering connection, you can unstable.)</string>
+    <string name="string1">Show advice</string>
+    <string name="string2">Initialize settings</string>
+    <string name="string3">initialization success!</string>
+    <string name="title_activity_help">helpActivity</string>
+    <string name="string4">ADVICE</string>
+    <string name="string11">You can only input \'a~z\' , \'0~1\', \'[\', \']\',\',\', \'.\'</string>
+    <string name="dddd">This buton is the left mouse button click. You can take advantage of when draw.(mouse drag)</string>
+    <string name="string15"> Server Connection Failed! Check the PC program running, and then re-run , please re-run the app. But the problem occurs, please re-run the PC.</string>
+    <string name="lite">Lite version is not available shortcuts.</string>
+    <string name="update">If the application is updated, please also update the server program.</string>
+</resources>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pad_back"
+    tools:context="com.leejh.hanul.stylus.lite.padRightActivity">
+
+    <RelativeLayout
+        android:id="@+id/pad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/top_layout"
+        android:background="#00000000" />
+
+    <com.fsn.cauly.CaulyAdView
+        xmlns:app="http://schemas.android.com/apk/res/com.leejh.hanul.stylus.lite"
+        android:id="@+id/xmladview"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        app:appcode="RYgvkAHq"
+        app:effect="RightSlide"
+        app:dynamicReloadInterval="true"
+        app:reloadInterval="20"
+        app:bannerHeight="Fixed"
+        />
+
+
+
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+      android:layout_above = "@+id/xmladview"
+        android:background="#303030"
+        android:orientation="horizontal">
+
+
+
+        <RelativeLayout
+            android:id="@+id/bt_box3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/bt_01"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_1_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bt_box2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/bt_02"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_2_right" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bt_box1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <ImageButton
+                android:id="@+id/bt_03"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_3_right" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Ssetting"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+
+            <SeekBar
+                android:id="@+id/sbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layoutDirection="rtl"
+                android:max="6"
+                android:progress="3"
+                android:theme="@style/Base.Theme.AppCompat.Light" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:visibility="visible"
+            android:id = "@+id/bt_box4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageButton
+                android:id="@+id/bt_04"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_s_right" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id = "@+id/bt_new_box1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/bt_new_01"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_l_right" />
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:visibility="gone"
+            android:id = "@+id/bt_new_box3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/bt_new_03"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_3_right" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id = "@+id/bt_box5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageButton
+                android:id="@+id/bt_05"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_mode_right" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id = "@+id/bt_box6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <ImageButton
+                android:id="@+id/bt_06"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:scaleType="centerInside"
+                android:src="@drawable/button_function" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="#64faf5"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
