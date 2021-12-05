@@ -3,8 +3,8 @@
 
 Tablet stylus : Use the phone as a tablet!   
 
-`updated` : 2016년 9월 5일 
-`status` : paused   
+`updated` : 2016년 9월 5일    
+`status` : paused (pro version also paused)  
 
 ![title](./resource/title.jpeg)
 
